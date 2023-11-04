@@ -5,7 +5,11 @@ import './index.css'
 import './SimpleCounter.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
     <App />
-  </React.StrictMode>,
 )
+
+// NOTE: use strict mode to find bugs during dev process before launching site
+
+{/* <React.StrictMode>
+
+</React.StrictMode>, */}
